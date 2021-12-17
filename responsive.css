@@ -1,0 +1,34 @@
+@media (max-width: 1000px) {
+    .atas-wrapper h1 {
+        font-size: 75px;
+    }
+    .lesson {
+        width: 50%;
+    }
+    .judul {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 690px) {
+    header {
+        flex: none;
+        display: block;
+    }
+    .flex-list {
+        padding-top: 20px;
+    }
+    .lesson {
+        width: 100%;
+    }
+    .lessons-icon img {
+        width: 50%;
+    }
+    header {
+        padding-left: 20px;
+    }
+    .atas-wrapper {
+        text-align: left;
+    }
+}
